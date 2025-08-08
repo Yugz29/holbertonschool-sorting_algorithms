@@ -16,7 +16,7 @@
  *              position. After each swap, the array is printed.
  */
 
-void selection_sort(int *array, size_t size)
+void quick_sort(int *array, size_t size)
 {
 	size_t i, j, search_min;
 	int temp;
